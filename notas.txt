@@ -1,0 +1,13 @@
+git log --- Ver un logs de los commit realizados
+
+git add file Agregar cambios para subir 
+
+git restore --staged file  Esto es para quitar un archivo de la lista de cambios a subir
+
+
+Stage changes -> se refiere a la acción de preparar archivos modificados para incluirlos en un commit
+
+git reset --soft HEAD~1 --> Revertir commit y manteniendo los cambios en stage
+
+
+ Deshacer el commit y dejar los cambios en el working directory --git reset HEAD~1
