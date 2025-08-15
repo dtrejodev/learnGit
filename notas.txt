@@ -11,3 +11,10 @@ git reset --soft HEAD~1 --> Revertir commit y manteniendo los cambios en stage
 
 
  Deshacer el commit y dejar los cambios en el working directory --git reset HEAD~1
+
+ git branch enlistar ramas de mi local
+
+ git branch NOMBRE_DE_LA_NUEVA_RAMA
+
+  git checkout test2 Cambiarme de rama
+  git switch -c nueva-rama crear nueva rama 
